@@ -1,50 +1,49 @@
-nav {
-    background-color: #333;
-    padding: 10px;
+/* Estilos gerais para o corpo e tags básicas */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-nav a {
-    color: white;
-    padding: 10px;
-    display: block;
-}
-
+/* Limitar a largura do main */
 main {
-    max-width: 840px;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-h1 {
-    color: #2c3e50;
-}
-
+/* Estilo específico para a imagem de perfil dentro do main */
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  width: 150px;
+  height: auto;
 }
 
+/* Estilos para o elemento aside */
 aside {
-    width: 250px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: #f9f9f9;
-    color: #333;
+  width: 20rem;
+  margin: 1rem auto;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
 
+/* Estilo para a imagem dentro do aside */
 aside img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
+/* Remover preenchimento do parágrafo */
 p {
-    padding: 0;
+  padding: 0;
 }
 
+/* Estilos para o rodapé */
 footer {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    text-align: center;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 1rem;
 }
