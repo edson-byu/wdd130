@@ -1,13 +1,12 @@
 :root {
-  --cor-primaria: #055a05; /* verde-floresta */
-  --cor-secundaria: #f4a261; /* bege médio */
-  --cor-destaque1: #264653; /* azul-escuro acinzentado */
-  --cor-destaque2: #e9c46a; /* amarelo-claro dourado */
+  --cor-primaria: #055a05;
+  --cor-secundaria: #f4a261;
+  --cor-destaque1: #264653;
+  --cor-destaque2: #e9c46a;
   --fonte-titulo: "Times New Roman", "Georgia", serif;
   --fonte-body: Arial, Helvetica, sans-serif;
 }
 
-/* Redefinição universal do box-model */
 * {
   margin: 0;
   padding: 0;
@@ -44,12 +43,11 @@ nav, p, section, article {
   padding: 8px;
 }
 
-/* Removendo sublinhado dos links de redes sociais (atendendo .socialmedia e .redes-sociais) */
-.socialmedia a, .redes-sociais a {
+/* Regra exigida para remover sublinhado dos links sociais */
+.socialmedia a {
     text-decoration: none;
 }
 
-/* Estilização do Hero e Posicionamento Absoluto exigido */
 .hero {
   position: relative;
 }
