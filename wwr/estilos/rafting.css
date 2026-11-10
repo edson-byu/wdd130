@@ -24,6 +24,15 @@ header, main, footer {
   margin: 0 auto;
 }
 
+header {
+  background-color: var(--cor-primaria);
+  color: var(--cor-destaque2);
+}
+
+footer {
+  background-color: var(--cor-secundaria);
+}
+
 h1, h2 {
   font-family: var(--fonte-titulo);
   color: var(--cor-primaria);
@@ -35,11 +44,12 @@ nav, p, section, article {
   padding: 8px;
 }
 
-.redes-sociais a {
+/* Removendo sublinhado dos links de redes sociais (atendendo .socialmedia e .redes-sociais) */
+.socialmedia a, .redes-sociais a {
     text-decoration: none;
 }
 
-/* Estilização do Hero e Posicionamento */
+/* Estilização do Hero e Posicionamento Absoluto exigido */
 .hero {
   position: relative;
 }
@@ -59,6 +69,15 @@ nav, p, section, article {
   opacity: 0.7;
   background-color: var(--cor-destaque1);
   color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 4px;
 }
 
 .hero article img {
