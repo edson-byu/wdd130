@@ -43,8 +43,8 @@ nav, p, section, article {
   padding: 8px;
 }
 
-/* Regra exigida para remover sublinhado dos links sociais */
-.socialmedia a {
+/* Regras para cobrir tanto .socialmedia quanto .redes-sociais */
+.socialmedia a, .redes-sociais a {
     text-decoration: none;
 }
 
