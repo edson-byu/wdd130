@@ -1,55 +1,25 @@
-WDD 130: Fundamentos da Web
-Logotipo da BYU-I
-Página Inicial
-S1
-S2
-S3
-S4
-S5
-S6
-S7
-S04 Tarefa: Site de Rafting – Atualização da Página Sobre Nós
-Visão Geral
-Continue trabalhando na página sobre.html do site de rafting usando o wireframe como guia. As tarefas incluem trabalhar no layout e no conteúdo de cabeçalho, navegação, seções e rodapé.
-
-Instruções
-Use este wireframe atualizado como guia para melhorar o layout da página sobre.html.
-Design de Wireframe para a Página Sobre Nós do Projeto de Rafting – Atualizada
-Design de Wireframe para Página Sobre Nós Atualizada
-Abra o arquivo sobre.html e os arquivos rafting.css para editá-los.
-Continue atualizando a página.
-Use CSS Grid no cabeçalho, header, para criar o layout horizontal entre o logotipo e a barra de navegação.
-Use CSS Flex para criar o layout horizontal em nav.
-Ajuda
-Abra o arquivo HTML chamado layout-de-header.html na pasta semana04 para ver um exemplo de como usar grid em header e flex em nav.
-
-.
-Estilize os elementos header, img e nav conforme necessário para criar um cabeçalho bem projetado que também será usado nas outras páginas do site de rafting, proporcionando uma aparência consistente em todo o site.
-Disponha os elementos da seção, section, História conforme mostrado no layout do wireframe.
-Estilize a seção, section, A aventura está te esperando! com cinco imagens para abranger a seção horizontalmente usando um método de layout do CSS. Use elementos figure para conter os elementos img e use legendas figcaption para cada imagem figure, rotulando-as com o nome da aventura do passeio ou o nome da corredeira, por exemplo, "Salto do Rio Negro", "Corredeira do Rio Paranapanema", "Corredeira do Rio Jacaré", etc.
-Ajuda
-<figure>
-  <img src="imagens/..." alt="...">
-  <figcaption>...</figcaption>
-</figure>
-O Elemento Figure – MDN
-
-Utilize os recursos de imagem apresentados na tarefa da semana anterior para encontrar imagens gratuitas para sua página.
-
-Crie um estilo em footer para que as três imagens caibam no espaço e sejam organizadas horizontalmente e à direita, conforme ilustrado no wireframe.
-Teste
-Cada página deste curso deverá passar pela lista de verificação de padrões de desenvolvimento.
-Teste continuamente a página no navegador local usando o Live/Five Server.
-Confirme (commit) e sincronize/envie (push) as alterações para o repositório wdd130 habilitado para o GitHub Pages.
-Execute a ✔ ferramenta de auditoria de página desta tarefa para verificar se você possui o conteúdo básico do documento.
-Verifique se há violações de contraste de cores no nível AA usando a ferramenta DevTools CSS Overview.
-Vídeo: ▶️ Usando o CSS Overview no DevTools
-
-
-Verifique se o total de kiloBytes transferidos, ou tamanho da página, não excede 500 kB.
-Use as informações totais de kB transferidos fornecidas pelo painel DevTools Network do navegador. Recomendamos recarregar a página usando Esvaziar Cache e Recarregar ao testar no painel Network. Se a quantidade total transferida exceder 500 kB, é provável que você tenha esquecido de otimizar as imagens.
-
-Envio
-Envie o URL (endereço do site) das suas páginas do GitHub no Canvas.
-Aqui está um exemplo de URL, em que você deve substituir nomedeusuariodogithub pelo seu nome de usuário do GitHub:
-https://nomedeusuariodogithub.github.io/wdd130/wwr/sobre.html
+<section>
+    <h2>A aventura está te esperando!</h2>
+    <div class="adventure-grid">
+        <figure>
+            <img src="imagens/rafting1.jpg" alt="Salto do Rio Negro">
+            <figcaption>Salto do Rio Negro</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/rafting2.jpg" alt="Corredeira do Rio Paranapanema">
+            <figcaption>Corredeira do Rio Paranapanema</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/rafting3.jpg" alt="Corredeira do Rio Jacaré">
+            <figcaption>Corredeira do Rio Jacaré</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/rafting4.jpg" alt="Queda das Águas Claras">
+            <figcaption>Queda das Águas Claras</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/rafting5.jpg" alt="Desfiladeiro Radical">
+            <figcaption>Desfiladeiro Radical</figcaption>
+        </figure>
+    </div>
+</section>
