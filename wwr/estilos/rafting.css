@@ -50,7 +50,8 @@ nav a {
 .hero {
     position: relative;
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--accent1-color);
+}
 }
 
 .hero img {
