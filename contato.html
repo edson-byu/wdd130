@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Aventuras nas Corredeiras para tirar dúvidas, fazer reservas de rafting ou enviar sugestões.">
+    <meta name="author" content="Édson Silva dos Passos">
+    <title>Fale Conosco - Aventuras nas Corredeiras</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logorafting.png" alt="Logotipo da Empresa de Rafting">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato-info">
+            <h1>Fale Conosco – Aventuras nas Corredeiras</h1>
+            <p><strong>Endereço:</strong> Av. das Corredeiras, 1200 – Centro, Canela/RS, CEP 95680-000</p>
+            <p><strong>Telefone:</strong> (54) 3282-1040 | (54) 99999-1040</p>
+            <p><strong>E-mail:</strong> contato@aventurasnascorredeiras.com.br</p>
+
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.0!2d-50.81!3d-29.36!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIxJzM2LjAiUyA1MMKwNDgnMzYuMCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                    width="600"
+                    height="350"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localização da Aventuras nas Corredeiras no Google Maps">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="equipe-contato">
+            <h2>Nossa Equipe de Atendimento</h2>
+            <div class="equipe-grid">
+                <figure>
+                    <img src="imagens/cliente-feliz.jpg" alt="Lucas Almeida, Guia Chefe de Operações">
+                    <figcaption>Lucas Almeida – Guia Chefe de Operações</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/rafting1.jpg" alt="Mariana Costa, Coordenadora de Reservas">
+                    <figcaption>Mariana Costa – Coordenadora de Reservas</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/rafting2.jpg" alt="Rafael Souza, Especialista em Segurança Fluvial">
+                    <figcaption>Rafael Souza – Especialista em Segurança Fluvial</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="formulario-contato">
+            <h2>Envie sua Mensagem</h2>
+            <form action="#" method="post">
+                <div class="campo-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo-form">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset class="campo-form">
+                    <legend>Finalidade da Mensagem:</legend>
+
+                    <label for="finalidade-consulta">
+                        <input type="radio" id="finalidade-consulta" name="finalidade" value="consulta-geral" required>
+                        Consulta Geral
+                    </label>
+
+                    <label for="finalidade-reserva">
+                        <input type="radio" id="finalidade-reserva" name="finalidade" value="pergunta-reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label for="finalidade-sugestao">
+                        <input type="radio" id="finalidade-sugestao" name="finalidade" value="sugestao-site">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+
+                <div class="campo-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <div class="campo-form">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                        Quero receber a newsletter mensal
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Mensagem de Contato</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Aventuras nas Corredeiras - Édson Silva dos Passos</p>
+        <nav class="redes-sociais">
+            <a href="https://facebook.com"><img src="imagens/facebook.svg" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="imagens/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://instagram.com"><img src="imagens/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>
